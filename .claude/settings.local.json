@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /Users/dawoon/Desktop/my-website/images)",
+      "Bash(cp \"/Users/dawoon/Desktop/my-website/02.상단로고이미지.png\" /Users/dawoon/Desktop/my-website/images/logo.png)",
+      "Bash(cp \"/Users/dawoon/Desktop/my-website/03.랜딩페이지메인이미지.png\" /Users/dawoon/Desktop/my-website/images/main.png)",
+      "Bash(open /Users/dawoon/Desktop/my-website/index.html)",
+      "WebFetch(domain:www.bottlefactory.co.kr)",
+      "Bash(open /Users/dawoon/Desktop/my-website/bottle-lounge.html)"
+    ]
+  }
+}

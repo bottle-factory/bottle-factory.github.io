@@ -1,0 +1,161 @@
+.bl-main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 60px 48px 120px;
+}
+
+/* ── Hero sketch image ── */
+.bl-hero-img {
+  max-width: 540px;
+  margin: 0 auto 44px;
+}
+
+.bl-hero-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ── Intro text ── */
+.bl-intro-block {
+  margin-bottom: 56px;
+}
+
+.bl-intro-block p {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  line-height: 2;
+  color: #222;
+}
+
+.bl-intro-block strong {
+  font-weight: 700;
+}
+
+/* ── Section ── */
+.bl-section {
+  margin-bottom: 72px;
+}
+
+.bl-section-title {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+  padding-bottom: 14px;
+  border-bottom: 1.5px solid #000;
+  margin-bottom: 24px;
+}
+
+/* ── Info block ── */
+.bl-info {
+  margin-bottom: 20px;
+  padding-left: 2px;
+}
+
+.bl-info p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13.5px;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* ── Tag line ── */
+.bl-tag {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+/* ── Body text ── */
+.bl-body {
+  margin-bottom: 20px;
+}
+
+.bl-body p {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 2;
+  margin-bottom: 4px;
+}
+
+.bl-body a {
+  color: #1a5fdb;
+  text-decoration: none;
+}
+
+.bl-body a:hover {
+  text-decoration: underline;
+}
+
+/* ── Arrow links ── */
+.bl-arrow-links {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 48px;
+}
+
+.bl-arrow-links a {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  color: #1a5fdb;
+  text-decoration: none;
+}
+
+.bl-arrow-links a:hover {
+  text-decoration: underline;
+}
+
+/* ── Sub-section ── */
+.bl-subsection {
+  border-top: 1px solid #eee;
+  padding-top: 40px;
+}
+
+.bl-sub-title {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #000;
+  padding-bottom: 14px;
+  border-bottom: 1.5px solid #000;
+  margin-bottom: 24px;
+}
+
+/* ── Full-width images ── */
+.bl-full-img {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.bl-full-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ── Active nav ── */
+.nav-active {
+  color: #1a5fdb !important;
+  border-bottom: 1.5px solid #1a5fdb;
+  padding-bottom: 2px;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .bl-main {
+    padding: 40px 24px 80px;
+  }
+
+  .bl-hero-img {
+    max-width: 100%;
+  }
+
+  .bl-section-title {
+    font-size: 18px;
+  }
+}
